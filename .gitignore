@@ -1,4 +1,4 @@
-outputs
+outputs/*
 joints_detectors/Alphapose/__pycache__
 joints_detectors/Alphapose/models
 
