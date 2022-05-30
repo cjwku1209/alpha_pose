@@ -83,3 +83,4 @@ def inference_video(video_path, detector_2d):
 if __name__ == '__main__':
 
    inference_video('outputs/0002.mp4', 'alpha_pose')
+   
