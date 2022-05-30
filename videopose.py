@@ -76,8 +76,6 @@ def inference_video(video_path, detector_2d):
     args.viz_video = video_path
     args.viz_output = f'{dir_name}/{args.detector_2d}_{video_name}.mp4'
 
-    args.evaluate = 'pretrained_h36m_detectron_coco.bin'
-
     with Timer(video_path):
         main(args)
 
