@@ -1,10 +1,5 @@
 # alpha_pose
 
-##### Single person video
-
-1. change the `video_path` in the `./videopose.py`
-2. Run it! You will find the output images and 2D pose prediction in the `./outputs` folder.
-
 ## Prerequisite
 
 1. Environment
@@ -30,6 +25,11 @@
          place to `./joints_detectors/Alphapose/models/sppe`
        - Download **yolov3-spp.weights** from ([Google Drive](https://drive.google.com/open?id=1D47msNOOiJKvPOXlnpyzdKA3k6E97NTC) | [Baidu pan](https://pan.baidu.com/s/1Zb2REEIk8tcahDa8KacPNA)),
          place to `./joints_detectors/Alphapose/models/yolo`
+
+##### Single person video
+
+1. change the `video_path` in the `./videopose.py`
+2. Run it! You will find the output images (with no visualization) and 2D pose prediction in the `./outputs` folder.
 
 ## Acknowledgement
 
